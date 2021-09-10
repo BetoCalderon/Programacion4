@@ -13,9 +13,15 @@ class MainActivity : AppCompatActivity() {
     // variable y el color no existiera que me muestre un mensaje no se identifico el color. colocar el enlace
     // al repositorio de GitHub
 
-        var color1 = rojo
-        var color2 = verde
-        var color3 = negro
-        
+        var color1 = "rojo"
+        var color2 = "verde"
+        var color3 = "negro"
+        if(color1 == color1) {
+            println ("El color es $color1")
+        } else if (color2 == color2){
+            println("El color es $color2")
+        }else if (color3 == color3){
+            println("El color es $color3")
+        }
     }
 }

@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Parcial1"
 include ':app'
+include ':app'
